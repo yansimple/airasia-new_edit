@@ -1,0 +1,41 @@
+.about {
+  height: 450px;
+}
+
+.about__container {
+  position: relative;
+}
+
+.about__img {
+  float: left;
+  width: 490px;
+  height: 505px;
+  left: 389px;
+  top: 2175px;
+}
+
+.about__content {
+  background: url(../../img/mountains.png) no-repeat;
+  position: absolute;
+  top: 97px;
+  width: 785px;
+  height: 455px;
+  right: 0px;
+  padding-top: 70px;
+  padding-left: 81px;
+  padding-bottom: 66px
+}
+
+.about__text {
+  margin-top: 37px; 
+  margin-left: 81;
+  margin-right: 202;
+  color: #060606;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 502px;
+  display: flex;
+  align-items: center;
+}

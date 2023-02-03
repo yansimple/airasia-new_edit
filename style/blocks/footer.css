@@ -1,0 +1,81 @@
+.footer {
+	display: flex;
+	margin-top: 200px;
+  height: 150px;	
+}
+
+.footer__container {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.footer__menu-item {
+	margin-right: 54px; 
+}
+
+.footer__menu-item:hover {
+	color: #DA0100;
+}
+
+.footer__contacts {
+	flex-direction: column;
+	display: flex;
+	justify-content: flex-end;
+} 
+
+.footer__contacts-phone {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 35px;
+}
+
+.footer__contacts-info {
+	float: right;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.footer__info {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	display: flex;
+	color: #9A9A9A;
+	align-self: flex-end;
+}
+
+.socials {
+	display: flex;
+}
+
+.socials__img-telegram:hover {
+	filter: brightness(130%);
+}
+
+.socials__img-vk:hover {
+	filter: brightness(130%);
+}
+
+.socials__img-facebook:hover {
+	filter: brightness(130%);
+}
+
+.socials__img-instagram:hover {
+	filter: brightness(130%);
+}
+
+.social__item {
+	margin-right: 10px;
+	cursor: pointer;
+}
