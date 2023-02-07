@@ -192,3 +192,16 @@ img {
 	background: #fff;
 	color: #F5170E;
 }
+
+.top-line {
+	min-height: 412px;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-line__container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+}
